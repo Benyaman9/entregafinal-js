@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem(CLAVE_LOCALSTORAGE, JSON.stringify(tareas));
     };
 
-    // función para refrescar la lista de tareas en el DOM
+    
     const refrescarListaDeTareas = () => {
         $contenedorTareas.innerHTML = tareas.map((tarea, indice) => `
             <li>
